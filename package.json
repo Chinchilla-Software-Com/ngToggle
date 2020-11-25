@@ -1,0 +1,7 @@
+{
+	"name": "@chinchilla-software/ng-toggle",
+	"private": false,
+	"version": "2.1.7",
+	"description": "AngularJS basic wrapper for a visual toggle",
+	"repository": "https://github.com/Chinchilla-Software-Com/ngToggle"
+}

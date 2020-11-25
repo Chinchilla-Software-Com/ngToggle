@@ -1,0 +1,70 @@
+﻿toggle-switch.label-left{
+	span{
+		float: left;
+	}
+}
+
+.toggle-switch{
+	margin: 4px;
+	display: inline-block;
+	vertical-align: top;
+	user-select: none;
+
+	&:hover{
+		cursor: pointer;
+	}
+
+	span{
+		color: #6b6b6b;
+		vertical-align: top;
+		line-height: 28px;
+		font-size: 0.8em;
+		margin: 0 4px;
+	}
+
+	&.on{
+		.toggle-container{
+			background-color: #35B2E1;
+		}
+		.toggle{
+			transform: translate3d(15px, 0px, 0px);
+		}
+	}
+
+	.toggle-container{
+		box-shadow: inset 0px 1px 2px rgba(black, 0.2);
+		margin-right: 4px;
+		height: 25px;
+		border-radius: 20px;
+		display: inline-block;
+		width: 40px;
+		transition: none;
+		background-color: #c4c4c4;
+	}
+
+	.toggle{
+		transition: none;
+		position: relative;
+		top: 2px;
+		left: 2px;
+		background-color: white;
+		box-shadow: 0px 1px 3px rgba(black, 0.2);
+		size: 21px;
+		border-radius: 50%;
+		height: 21px;
+		width: 21px;
+	}
+}
+
+toggle-switch.small{
+	.toggle-switch{
+		.toggle-container{
+			height: 15px;
+			width: 30px;
+		}
+		.toggle{
+			height: 10px;
+			width: 10px;
+		}
+	}
+}
